@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @tour.name %>
+</p>
+
+<p>
+  <strong>State:</strong>
+  <%= @tour.state %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @tour.body %>
+</p>
+
+<p>
+  <strong>Background:</strong>
+  <%= @tour.background %>
+</p>
+
+<p>
+  <strong>Latitude:</strong>
+  <%= @tour.latitude %>
+</p>
+
+<p>
+  <strong>Longitude:</strong>
+  <%= @tour.longitude %>
+</p>
+
+<%= link_to 'Edit', edit_tour_path(@tour) %> |
+<%= link_to 'Back', tours_path %>
