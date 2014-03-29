@@ -7,8 +7,7 @@
       <th>State</th>
       <th>Body</th>
       <th>Background</th>
-      <th>Latitude</th>
-      <th>Longitude</th>
+      <th>Location</th>
       <th></th>
       <th></th>
       <th></th>
@@ -21,9 +20,8 @@
         <td><%= tour.name %></td>
         <td><%= tour.state %></td>
         <td><%= tour.body %></td>
-        <td><%= tour.background %></td>
-        <td><%= tour.latitude %></td>
-        <td><%= tour.longitude %></td>
+        <td><img src="<%= tour.background %>" width="150"></td>
+        <td><img src="http://api.tiles.mapbox.com/v3/dmzza.hdj50i76/<%= tour.longitude %>,<%= tour.latitude %>,9/150x150.png"></td>
         <td><%= link_to 'Show', tour %></td>
         <td><%= link_to 'Edit', edit_tour_path(tour) %></td>
         <td><%= link_to 'Destroy', tour, method: :delete, data: { confirm: 'Are you sure?' } %></td>
