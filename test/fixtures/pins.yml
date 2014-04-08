@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  order: 1
+  tour_id: 1
+  title: MyString
+  caption: MyText
+  photo: MyString
+
+two:
+  order: 1
+  tour_id: 1
+  title: MyString
+  caption: MyText
+  photo: MyString
